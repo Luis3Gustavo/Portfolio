@@ -1,0 +1,126 @@
+:root {
+    --portfolio-max-width: 1140px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+}
+
+body {
+    min-height: 100vh;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-bottom: 1px solid #dbdbdb;
+    background: var(--bulma-body-background-color, #fff);
+}
+
+.brand-name {
+    font-weight: 700;
+}
+
+.hero-section {
+    min-height: 70vh;
+}
+
+
+.profile-image {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-image {
+    min-height: 180px;
+}
+
+.section-heading .title {
+    margin-bottom: 0;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.section-alt {
+    background: var(--bulma-scheme-main-bis, #f5f5f5);
+}
+
+.footer {
+    border-top: 1px solid #dbdbdb;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: auto;
+    }
+
+    .profile-image {
+        width: 190px;
+        height: 190px;
+    }
+}
+
+
+.theme-dark,
+.theme-dark body {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.theme-dark .site-header,
+.theme-dark .navbar,
+.theme-dark .footer {
+    background-color: #181818;
+    color: #f5f5f5;
+}
+
+.theme-dark .navbar-item,
+.theme-dark .navbar-link,
+.theme-dark .title,
+.theme-dark .subtitle,
+.theme-dark .content,
+.theme-dark .card,
+.theme-dark .card-content {
+    color: #f5f5f5;
+}
+
+.theme-dark .navbar-item:hover {
+    background-color: #242424;
+}
+
+.theme-dark .section-alt {
+    background-color: #1c1c1c;
+}
+
+.theme-dark .card {
+    background-color: #202020;
+}
+
+.theme-dark .button.is-light {
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    border-color: #444;
+}
+
+.theme-dark .site-header,
+.theme-dark .footer {
+    border-color: #3a3a3a;
+}
