@@ -19,15 +19,16 @@ pagina-pessoal/
 │       ├── js/
 │       │   └── script.js
 │       └── img/
+│           └── perfil.jpeg
 ├── outro-framework/
 │   ├── index.html
 │   └── assets/
 │       ├── css/
-│       │   ├── style.css
-│       │   └── theme-dark.css
+│       │   └── style.css
 │       ├── js/
 │       │   └── script.js
 │       └── img/
+│           └── perfil.jpeg
 ├── index.html
 ├── README.md
 └── LICENSE
@@ -44,7 +45,7 @@ As duas versões apresentam o mesmo conteúdo e a mesma organização geral:
 - contato;
 - tema claro/escuro.
 
-A principal diferença estrutural é a utilização do framework CSS:
+A principal, e basicamente única, diferença é a estrutural com a utilização do framework CSS:
 
 - Bootstrap na primeira versão;
 - Bulma na segunda versão.
